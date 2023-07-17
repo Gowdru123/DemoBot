@@ -16,6 +16,7 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25502576'))
 API_HASH = environ.get('API_HASH', 'f0f35dbb5b0081cdc8d3c9d5383c4628')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6277395897:AAE-qnZRFLf3Gxf5cvab_wMfYsDxyrF8MFU")
+APP_NAME = environ.get('APP_NAME', 'PublicRenamerBot')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
